@@ -1,2 +1,9 @@
-if __name__ == '__main__':
-    print('Hello world')
+from flask import Flask
+app = Flask(name)
+
+@app.route('/')
+def hello_world():
+  return 'Hello, World!'
+
+if name == 'main':
+  app.run(debug=True)
