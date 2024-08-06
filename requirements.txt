@@ -3,3 +3,8 @@ flask_sqlalchemy
 flask_migrate
 flask_jwt_extended
 psycopg2-binary
+
+axios 
+vue-router 
+chart.js 
+vue-chartjs
