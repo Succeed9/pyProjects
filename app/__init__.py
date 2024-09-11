@@ -33,9 +33,9 @@ def create_app():
     app.register_blueprint(auth.bp)
 
 
-    @app.route('/')
-    def main():
-      return render_template('main_page.html')
+    # @app.route('/')
+    # def main():
+    #   return render_template('main_page.html')
 
     @app.route('/hello/<name>')
     def hello(name):
